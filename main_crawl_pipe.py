@@ -80,7 +80,7 @@ def reset_state(course_id):
 # =========================================================
 
 def sanitize_filename(name):
-    name = name.strip()
+    name = name. Strip().rstrip(".")
     # Replace common Unicode characters with ASCII equivalents
     replacements = {
         '\u2014': '-',   # em-dash
