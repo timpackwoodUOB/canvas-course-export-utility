@@ -14,7 +14,7 @@ from urllib.parse import urljoin, urlparse, unquote
 
 ACCESS_TOKEN = os.getenv("CANVAS_API_ACCESS_TOKEN") 
 CANVAS_BASE_URL = os.getenv("CANVAS_BASE_URL")
-COURSE_IDS = []  # or example IDs like [12345, 67890] typically find the at https://base_canvas_url/courses/course_id
+COURSE_IDS = []  # or example IDs like [12345, 67890] typically find them at https://base_canvas_url/courses/course_id
 
 # Concurrency settings
 MAX_DOWNLOAD_WORKERS = 10
